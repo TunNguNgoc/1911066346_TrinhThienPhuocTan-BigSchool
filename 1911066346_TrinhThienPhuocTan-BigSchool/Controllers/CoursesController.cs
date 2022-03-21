@@ -13,5 +13,4 @@ namespace _1911066346_TrinhThienPhuocTan_BigSchool.Controllers
         {
             return View();
         }
-    }// commit21/03
-}
+    }// commit21/03 ThucHanh
