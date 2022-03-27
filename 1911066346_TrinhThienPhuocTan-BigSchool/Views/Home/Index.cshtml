@@ -1,4 +1,5 @@
-﻿@model _1911066346_TrinhThienPhuocTan_BigSchool.ViewModels.CourseViewModel
+﻿
+@model _1911066346_TrinhThienPhuocTan_BigSchool.ViewModels.CourseViewModel
 
 @{
     ViewBag.Title = "Home Page";
@@ -23,7 +24,7 @@
                     @course.Lecturer.Name
                     @if (Model.ShowAction)
                     {
-                        <button class="btn btn-default btn-sm js-toggle-follow" data-user-id="@course. LecturerId">Follow</button>
+                        <button class="btn btn-default btn-sm js-toggle-follow" data-user-id="@course.LecturerId">Follow</button>
                     }
 
                 </span>
