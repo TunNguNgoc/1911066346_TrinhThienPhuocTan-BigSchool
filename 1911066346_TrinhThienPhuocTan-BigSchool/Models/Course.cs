@@ -11,6 +11,8 @@ namespace _1911066346_TrinhThienPhuocTan_BigSchool.Models
         public int Id { get; set; }
         public ApplicationUser Lecturer { get; set; }
         [Required]
+
+        public bool IsCanceled { get; set; }
         public string LecturerId { get; set; }
         [Required]
         [StringLength(255)]
